@@ -4,6 +4,7 @@
   color: white;
   font-size: 30px;
   position: fixed;
+  top: 76px;
   width: 100%;
   z-index: 5;
 }
