@@ -1,11 +1,11 @@
 {
   "manifest_version" : 2,
-  "name" : "production_bg_color_change",
+  "name" : "bike_parking_bg_color_change",
   "version" : "1.0.0",
   "description" : "各環境の名前がページ上部に表示される拡張機能",
   "content_scripts" : [
     {
-      "matches" : ["https://*.buzzkuri.com/*", "https://buzzkuri.com/*"],
+      "matches" : ["https://staging-bike-parking-search.herokuapp.com/*", "https://bike-parking-search.com/*", "http://localhost"],
       "css" : ["style.css"],
       "js" : ["main.js"]
     }
